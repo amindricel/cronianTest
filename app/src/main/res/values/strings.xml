@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">cronianTest</string>
+    <string name="enter_limit">Please enter the limit</string>
+</resources>

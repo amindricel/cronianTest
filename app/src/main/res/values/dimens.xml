@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">5dip</dimen>
+    <dimen name="medium_padding">10dip</dimen>
+    <dimen name="large_padding">15dip</dimen>
+    <dimen name="extra_large_padding">20dip</dimen>
+    <dimen name="recycler_item_height">100dip</dimen>
+    <dimen name="limit_input_marginTop">150dip</dimen>
+    <dimen name="translate_distance">100dip</dimen>
+</resources>
