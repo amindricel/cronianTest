@@ -91,14 +91,7 @@ public class HomeFragment extends BaseFragment {
         ((Start) getActivity()).saveToSharedPreferences(BaseActivity.SAVE_INT, "fibonaci_limit", fibonaci_limit);
         ((Start) getActivity()).saveToSharedPreferences(BaseActivity.SAVE_INT, "last_visible_position", lastRecyclerVisiblePosition);
         Log.d(TAG, "last visible position: " + lastRecyclerVisiblePosition);
-        try {
-            ((Start) getActivity()).saveToSharedPreferences(BaseActivity.SAVE_INT, "fibonacci_input", Integer.parseInt(limit_input.getText().toString()));
 
-            if (limit_input.getHint().toString().toLowerCase().equals(getResources().getString(R.string.enter_limit).toLowerCase()))
-                ((Start) getActivity()).saveToSharedPreferences(BaseActivity.SAVE_INT, "fibonacci_input", 0);
-        } catch (NumberFormatException e) {
-            Log.e(TAG, "not a number");
-        }
     }
 
     @Nullable
